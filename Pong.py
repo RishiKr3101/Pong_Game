@@ -28,8 +28,8 @@ ball.shape("square")
 ball.color("white")
 ball.penup()
 ball.goto(0, 0)
-ball.dx = 0.3
-ball.dy = 0.3
+ball.dx = 0.2
+ball.dy = 0.2
 
 a = 0
 b = 0
@@ -45,25 +45,25 @@ p.write("Player A : {}     Player B : {}".format(a, b), align= "center", font=("
 
 def pad_a_up():
     y = pad_a.ycor()
-    y += 25
+    y += 30
     pad_a.sety(y)
 
 
 def pad_b_up():
     y = pad_b.ycor()
-    y += 25
+    y += 30
     pad_b.sety(y)
 
 
 def pad_a_down():
     y = pad_a.ycor()
-    y -= 25
+    y -= 30
     pad_a.sety(y)
 
 
 def pad_b_down():
     y = pad_b.ycor()
-    y -= 25
+    y -= 30
     pad_b.sety(y)
 
 
