@@ -28,8 +28,8 @@ ball.shape("square")
 ball.color("white")
 ball.penup()
 ball.goto(0, 0)
-ball.dx = 0.3
-ball.dy = 0.3
+ball.dx = 0.2
+ball.dy = 0.2
 
 a = 0
 b = 0
