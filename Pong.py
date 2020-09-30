@@ -45,25 +45,25 @@ p.write("Player A : {}     Player B : {}".format(a, b), align= "center", font=("
 
 def pad_a_up():
     y = pad_a.ycor()
-    y += 25
+    y += 30
     pad_a.sety(y)
 
 
 def pad_b_up():
     y = pad_b.ycor()
-    y += 25
+    y += 30
     pad_b.sety(y)
 
 
 def pad_a_down():
     y = pad_a.ycor()
-    y -= 25
+    y -= 30
     pad_a.sety(y)
 
 
 def pad_b_down():
     y = pad_b.ycor()
-    y -= 25
+    y -= 30
     pad_b.sety(y)
 
 
