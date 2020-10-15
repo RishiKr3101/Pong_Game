@@ -97,7 +97,7 @@ while True:  # Main update loop
         ball.dy *= -1
         ball.dx *= -1
 
-        a = a+1
+        a += 1
         p.clear()
         p.write("Player A : {}     Player B : {}".format(a, b), align="center", font=("Courier", 24, "normal"))
 
