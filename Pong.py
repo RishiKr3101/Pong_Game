@@ -111,10 +111,10 @@ while True:  # Main update loop
         p.clear()
         p.write("Player A : {}     Player B : {}".format(a, b), align="center", font=("Courier", 24, "normal"))
 
-    if (ball.xcor() > 340 and ball.xcor() < 350) and (ball.ycor() < pad_b.ycor() + 50 and ball.ycor() > pad_b.ycor()-50):
+    if (340 < ball.xcor() < 350) and (ball.ycor() < pad_b.ycor() + 50) and (ball.ycor() > pad_b.ycor() - 50):
         ball.setx(340)
         ball.dx *= -1
 
-    if (ball.xcor() < -340 and ball.xcor() > -350) and (ball.ycor() < pad_a.ycor() + 50 and ball.ycor() > pad_a.ycor()-50):
+    if (-350 < ball.xcor() < -340) and (ball.ycor() < pad_a.ycor() + 50) and (ball.ycor() > pad_a.ycor() - 50):
         ball.setx(-340)
         ball.dx *= -1
