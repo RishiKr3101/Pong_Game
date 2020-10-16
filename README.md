@@ -1,2 +1,3 @@
 # Pong_Game
-Pong game using Python along with ScoreBoard and levels
+Pong game using Python.
+It also has a ScoreBoard which displays the score overall and even the levels.
